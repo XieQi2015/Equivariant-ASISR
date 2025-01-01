@@ -1,7 +1,7 @@
 # EQ-ASISR
 Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"  
 
-![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2_pro2.png)
+![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
 
     configs\             : Folder for Storing Configuration Files
     datasets\            : Codes for reading samples for different datasets
