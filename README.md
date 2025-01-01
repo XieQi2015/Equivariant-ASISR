@@ -1,4 +1,4 @@
-# EQ-ASISR
+# Rot-E ASISR
 Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"  
 
 ![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
