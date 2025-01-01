@@ -22,6 +22,7 @@ ASISR task can, for the first time, be implemented with end-to-end rotational eq
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
 
 ![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_2_iteration.gif)
-Figure 2. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ)
+Figure 2. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with different training epoches. It can be observed that the proposed LIFF-EQ consistently maintains the rotational symmetry characteristics of the data across different training epoches, whereas the original LIIF method does not.
 
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif">
+Figure 2. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with 20 training epoches. It can be observed that the implicit function obtained by the proposed LIIF-EQ can stably rotate with the rotation of the input, whereas LIIF cannot.
