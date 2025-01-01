@@ -6,7 +6,7 @@ Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"
     configs\             : Folder for Storing Configuration Files
     datasets\            : Codes for reading samples for different datasets
     exampleImage\        : An example image for conducting equivariance observation experiments
-    models\              : Code of different rotataion equivariant encoders and  rotataion equivariant INRs
+    models\              : Code of different rotataion equivariant encoders and INRs
     EQ_Observe.py        : Code for conducting equivariance observation experiments
     test.py              : Code for testing the trained models 
     test_swin.py         : Code for testing the trained models whose encoder is swinIR method 
