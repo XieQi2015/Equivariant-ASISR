@@ -27,6 +27,7 @@ Figure 2. Illustration of the output local implicit image function obtained by L
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif">
 Figure 2. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with 20 training epoches. It can be observed that the implicit function obtained by the proposed LIIF-EQ can stably rotate with the rotation of the input, whereas LIIF cannot.
 
+
 **Usage:**    
 
 Examples for training the proposed methods:
