@@ -26,3 +26,38 @@ Figure 2. Illustration of the output local implicit image function obtained by L
 
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif">
 Figure 2. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with 20 training epoches. It can be observed that the implicit function obtained by the proposed LIIF-EQ can stably rotate with the rotation of the input, whereas LIIF cannot.
+
+**Usage:**    
+
+Examples for training the proposed methods:
+
+    # Train LIIF and LIIF-EQ
+    python train.py --config configs/train-div2k/train-edsr-baseline-liif.yaml
+    python train.py --config configs/train-div2k/train-edsr-baseline-liif-EQ.yaml
+
+    # Train OPE and OPE-EQ
+    python train.py --config configs/train-div2k/train-edsr-baseline-ope.yaml
+    python train.py --config configs/train-div2k/train-edsr-baseline-ope-EQ.yaml
+
+    # Train LTE and LTE-EQ
+    python train.py --config configs/train-div2k/train-edsr-baseline-lte.yaml
+    python train.py --config configs/train-div2k/train-edsr-baseline-lte-EQ.yaml
+
+Examples for conducting equivariance observation experiments
+
+    # Observe the equivariance of LIIF and LIIF-EQ
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-liif.yaml
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-liif-EQ.yaml
+
+    # Observe the equivariance of OPE and OPE-EQ
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-ope.yaml
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-ope-EQ.yaml
+
+    # Observe the equivariance of LTE and LTE-EQ
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-lte.yaml
+    python EQ_Observe.py  --config configs/observation/Observe-edsr-baseline-lte-EQ.yaml
+
+    # Observe the equivariance of swinIR based LIIF and LIIF-EQ
+    python EQ_Observe.py  --config configs/observation/Observe-swinir-lte.yaml
+    python EQ_Observe.py  --config configs/observation/Observe-swinir-lte-EQ.yaml
+    
