@@ -21,3 +21,4 @@ The capability of the proposed framework in keeping the rotation symmetry can be
 
 ![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/imFun.png)
 
+![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_2_iteration.gif)
