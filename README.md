@@ -64,7 +64,7 @@ Examples for conducting equivariance observation experiments
     python EQ_Observe.py  --config configs/observation/Observe-swinir-lte.yaml
     python EQ_Observe.py  --config configs/observation/Observe-swinir-lte-EQ.yaml
 
-The output image wold be like:
+The output image of equivariance observation experiments would be like:
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/EqExample_lte.png">
 Figure 4. Illustration of the output images of original and its rotation-equivariant improvement (p16 rotation equivariant), when the network is randomly initialized with out any training.
 
