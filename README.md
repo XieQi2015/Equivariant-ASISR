@@ -26,7 +26,7 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 The performance can be view as following:
 
 <p align = "center">  
-<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="800" />
+<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="700" />
 </p>
 
 <p align = "center">  
