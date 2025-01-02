@@ -19,7 +19,7 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 
 The performance can be view as following:
 
-![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif#pic_right)
+![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif)
 
 Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
 
@@ -70,7 +70,7 @@ Examples for conducting equivariance observation experiments
     python EQ_Observe.py  --config configs/observation/Observe-swinir-lte-EQ.yaml
 
 The output image of equivariance observation experiments would be like:
-<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/EqExample_lte.png">
+<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/EqExample_lte.png"  width="400">
 Figure 5. Illustration of the output images of original and its rotation-equivariant improvement (p16 rotation equivariant), when the network is randomly initialized with out any training.
 
     
