@@ -29,6 +29,7 @@ Figure 3. Illustration of the output local implicit image function obtained by L
 The performance can be view as following:
 
 ![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif)
+
 Figure 4. Illustration of the arbitrary-scale image super-resolution performance.
 
 .
