@@ -1,10 +1,6 @@
 # Rot-E ASISR
 Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"  
 
-![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
-Figure 1. Illustration of overall rotation equivariant arbitrary-scale image super-resolution
-
-
     configs\             : Folder for Storing Configuration Files
     datasets\            : Codes for reading samples for different datasets
     exampleImage\        : An example image for conducting equivariance observation experiments
@@ -18,6 +14,9 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
     
 We make efforts to construct a rotation equivariant ASISR method in this study. Specifically, we elaborately redesign basic architectures of INR and encoder modules, incorporating intrinsic rotation equivariance capabilities beyond those of conventional ASISR networks. Through such amelioration, the
 ASISR task can, for the first time, be implemented with end-to-end rotational equivariance maintained from input to output throughout the network flow.
+
+![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
+Figure 1. Illustration of overall rotation equivariant arbitrary-scale image super-resolution
 
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
 
