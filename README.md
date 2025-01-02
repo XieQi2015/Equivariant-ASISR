@@ -14,8 +14,14 @@ Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"
     
 We make efforts to construct a rotation equivariant ASISR method in this study. Specifically, we elaborately redesign basic architectures of INR and encoder modules, incorporating intrinsic rotation equivariance capabilities beyond those of conventional ASISR networks. Through such amelioration, the ASISR task can, for the first time, be implemented with end-to-end rotational equivariance maintained from input to output throughout the network flow.
 
+<p align = "center">  
 ![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
+</p>
+
+<p align = "center">  
 Figure 1. Illustration of overall rotation equivariant arbitrary-scale image super-resolution
+</p>
+
 
 The performance can be view as following:
 
@@ -26,8 +32,6 @@ The performance can be view as following:
 <p align = "center">  
 Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
 </p>
-<p style="text-align:center;">Figure 2. Illustration of the arbitrary-scale image super-resolution performance.</p>
-
 
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
 
@@ -35,14 +39,18 @@ The capability of the proposed framework in keeping the rotation symmetry can be
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_2_iteration.gif"  width="700" />
 </p>
 
-<p style="text-align:center;">Figure 3. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with different training epoches. It can be observed that the proposed LIFF-EQ consistently maintains the rotational symmetry characteristics of the data across different training epoches, whereas the original LIIF method does not.
+<p align = "center">  
+Figure 3. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with different training epoches. It can be observed that the proposed LIFF-EQ consistently maintains the rotational symmetry characteristics of the data across different training epoches, whereas the original LIIF method does not.
 </p>
 
 <p align = "center">  
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif"  width="700" />
 </p>
 
+<p align = "center">  
 Figure 4. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with 20 training epoches. It can be observed that the implicit function obtained by the proposed LIIF-EQ can stably rotate with the rotation of the input, whereas LIIF cannot.
+</p>
+
 
 
 
@@ -88,6 +96,8 @@ The output image of equivariance observation experiments would be like:
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/EqExample_lte.png"  width="700" />
 </p>
 
+<p align = "center">  
 Figure 5. Illustration of the output images of original and its rotation-equivariant improvement (p16 rotation equivariant), when the network is randomly initialized with out any training.
+</p>
 
     
