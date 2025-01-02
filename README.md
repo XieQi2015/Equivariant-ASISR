@@ -54,8 +54,6 @@ Figure 4. Illustration of the output local implicit image function obtained by L
 
 
 
-.
-
 **Usage:**    
 
 Examples for training the proposed methods:
