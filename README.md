@@ -20,10 +20,12 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 The performance can be view as following:
 
 <p align = "center">  
-<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="700" />
-</p>
+<img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="1000" />
 
 Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
+</p>
+
+
 
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
 
