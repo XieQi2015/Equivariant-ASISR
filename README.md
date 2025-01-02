@@ -19,16 +19,16 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 
 The performance can be view as following:
 
-![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif)
+![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif#pic_center)
 
 Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
 
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
 
-![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_2_iteration.gif=x600)
+![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_2_iteration.gif)
 Figure 3. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with different training epoches. It can be observed that the proposed LIFF-EQ consistently maintains the rotational symmetry characteristics of the data across different training epoches, whereas the original LIIF method does not.
 
-![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif=x600)
+![Illustration of EQ LIIF](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Liif_rotaion.gif)
 Figure 4. Illustration of the output local implicit image function obtained by LIIF and LIIF enhanced with the proposed method (LIIF-EQ) with 20 training epoches. It can be observed that the implicit function obtained by the proposed LIIF-EQ can stably rotate with the rotation of the input, whereas LIIF cannot.
 
 
