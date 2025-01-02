@@ -23,6 +23,9 @@ The performance can be view as following:
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="800" />
 </p>
 
+<p align = "center">  
+Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
+</p>
 <p style="text-align:center;">Figure 2. Illustration of the arbitrary-scale image super-resolution performance.</p>
 
 
