@@ -19,7 +19,7 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 
 The performance can be view as following:
 
-![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif#pic_center)
+![Illustration of Performance](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif#pic_right)
 
 Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
 
