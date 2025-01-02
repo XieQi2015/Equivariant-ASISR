@@ -15,7 +15,7 @@ Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"
 We make efforts to construct a rotation equivariant ASISR method in this study. Specifically, we elaborately redesign basic architectures of INR and encoder modules, incorporating intrinsic rotation equivariance capabilities beyond those of conventional ASISR networks. Through such amelioration, the ASISR task can, for the first time, be implemented with end-to-end rotational equivariance maintained from input to output throughout the network flow.
 
 <p align = "center">  
-![Illustration of EQ-ASISR](https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png)
+    <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/Fig2.png"/>
 </p>
 
 <p align = "center">  
