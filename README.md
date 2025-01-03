@@ -23,7 +23,7 @@ Figure 1. Illustration of overall rotation equivariant arbitrary-scale image sup
 </p>
 
 
-The performance can be view as following:
+The experimental resutls on two typical framework, ESDR-LIIF and Swin-LTE  (representing the most basic and SOTA ASISR, respectively ), are as follows:
 
 <p align = "center">  
 <img src="https://github.com/XieQi2015/ImageFolder/blob/master/EQ-ASISR/all.gif"  width="700" />
