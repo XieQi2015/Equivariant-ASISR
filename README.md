@@ -30,7 +30,7 @@ The experimental resutls on two typical framework, ESDR-LIIF and Swin-LTE  (repr
 </p>
 
 <p align = "center">  
-Figure 2. Illustration of the arbitrary-scale image super-resolution performance.
+Figure 2. Illustration of the arbitrary-scale image super-resolution performance of two typical competing ASISR methods as well as their Rot-E ameliorations, including EDSR+LIIF (with relatively simple encoder+INR modules) and SwinIR+LTE (with relatively complex encoder+INR modules).
 </p>
 
 The capability of the proposed framework in keeping the rotation symmetry can be observed from the following figures. 
