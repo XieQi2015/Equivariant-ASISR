@@ -10,6 +10,7 @@ Code of "Rotation Equivariant Arbitrary-scale Image Super-Resolution"
     test_swin.py         : Code for testing the trained models whose encoder is swinIR method 
     train.py             : Code for training the ASISR models
     utils.py             : Code of functions that may be utilized
+    Supplementary Material.pdf: Supplementary Material
     
     
 We make efforts to construct a rotation equivariant ASISR method in this study. Specifically, we elaborately redesign basic architectures of INR and encoder modules, incorporating intrinsic rotation equivariance capabilities beyond those of conventional ASISR networks. Through such amelioration, the ASISR task can, for the first time, be implemented with end-to-end rotational equivariance maintained from input to output throughout the network flow.
